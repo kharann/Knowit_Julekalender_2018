@@ -1,11 +1,11 @@
-def vekkSort():
-    with open("input-vekksort.txt","r") as f:
-        data = list(map(lambda x: int(x), f.read().split("\n")))
-    del_amount = 0
-    for old_i in range(len(data)-1):
-        new_i = old_i-del_amount
-        if data[new_i] > data[new_i+1]:
-            del data[new_i+1]
-            del_amount += 1
-    return sum(data)
+f = open('input-vekksort.txt', 'r')
+lst = list(map(int, f.read().split()))
+f.close()
+temp = [lst[0]]
+
+del lst[0]
+for i in range(len(lst)):
+    if elem >= temp[-1] and :
+        temp.append(elem)
+
 print(vekkSort())

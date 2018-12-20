@@ -1,0 +1,1 @@
+del birth_yr[i]
